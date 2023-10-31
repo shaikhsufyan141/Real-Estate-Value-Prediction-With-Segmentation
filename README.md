@@ -52,3 +52,24 @@ Segment 1 (Valuable Properties): The segment likely includes apartments that are
 Segment 2 (Standard Properties): The segment likely includes smaller homes that are affordable for first-time homebuyers with negligible gain 
 
 Segment 3 (Budget Properties): The segment likely includes properties that are not great investment
+
+
+
+
+### Approach 
+
+## EDA 
+-> Focused how every variable affects the Supervised Part Target Variable ( Sale Price ) and if there are any relations the derived insights and cited them 
+
+## Data Engineering 
+-> Mostly Concentrated are there any patterns in those observations that show a lot of contrast between the Sale Price and the Estimated Price if not the removed such values so these values does not create discrepancy in the Model's Predictions
+-> Perfomed Chi-Square Test to determine the unwanted relationships between the categorical variables , also did the same for numerical vars by using Pearson Correlation Matrix .
+
+### Supervised 
+
+## Model Building
+-> As there were multiple variables and the basic models  weren't performing good enough so focused more on Bagging and Boosting Models like Random Forest , Extra Trees , AdaBoost , Gradient Boost  and XG Boost 
+-> Also tried using Ensemble Models like Stacking and Voting Models
+
+### Unsupervised 
+->  Applied a K-Means Model by simply using Trial and Error Method using a set of variables focusing more over Gain as it defines the whole Segmentation with the perspective of the investors and Segregated the Clusters on the basis of it .
